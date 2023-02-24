@@ -1,0 +1,84 @@
+@mixin myball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+@mixin myball-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #C4A3FD;
+}
+@mixin myball-3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C4A3FD;
+}
+
+@mixin myflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@mixin smalltitle {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@mixin bigtitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+
+@mixin mostsmalltitle {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    width: 260px;
+    padding-left: 30px;
+    padding-top: 8px;
+
+}
+
+
+@mixin ballincard {
+    width: 40px;
+    height: 40px;
+    background-color: #956AE1;
+    margin-top: 90px;
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+    
+}
+
+@mixin goball {
+    width: 37px;
+    height: 37px;
+    background-color: #C4A3FD;
+    border-radius: 40px;
+
+}
+
+
+@mixin myresponsive-1  {
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+@mixin myresponsive-2{
+    flex-direction: row;
+    flex-wrap:nowrap;
+    
+}
