@@ -63,13 +63,13 @@ a {
 
 .body-1 {
   margin: 0 auto;
-  width: 1380px;
+  width: 1880px;
   height: 4304px;
   background-color: #B28AF8;
 }
 .body-1 .header {
   width: 1437px;
-  height: 1352px;
+  height: 1252px;
   position: relative;
 }
 .body-1 .header .Geolab {
@@ -223,8 +223,8 @@ a {
   position: absolute;
 }
 .body-1 .p-2 {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   position: absolute;
 }
 .body-1 .m-3 {
@@ -234,14 +234,15 @@ a {
   position: relative;
 }
 .body-1 .m-2 {
-  position: relative;
-  width: 700px;
-  height: 700px;
-  padding-left: 350px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  padding-left: 499px;
+  padding-top: 300px;
 }
 .body-1 .m-2 .p-2 {
-  width: 1100px;
-  height: 1100px;
+  width: 700px;
+  height: 600px;
 }
 .body-1 .p-4 {
   position: absolute;
@@ -639,7 +640,7 @@ a {
   width: 255px;
 }
 .body-1 .section-3 {
-  width: 1380px;
+  width: 1880px;
   height: 2378px;
   background-color: #956AE1;
   margin-top: 120px;
@@ -1087,7 +1088,7 @@ a {
   height: 400px;
 }
 .body-1 .footer .section-4 {
-  width: 1380px;
+  width: 1880px;
   height: 850px;
   height: 1340px;
   background-color: #B28AF8;
@@ -1414,6 +1415,9 @@ a {
 }
 
 @media (max-width: 450px) {
+  .body {
+    width: 1880px;
+  }
   .navandul {
     display: none;
   }
